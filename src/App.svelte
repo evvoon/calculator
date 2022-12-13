@@ -1,0 +1,82 @@
+<section class="calculator">
+  <div class="display"><span>123</span></div>
+
+  <div class="buttons">
+    <button class="b-clear"> AC </button>
+    <button class="b-extra"> +/- </button>
+    <button class="b-percentage"> % </button>
+    <button class="b-divide"> ÷ </button>
+
+    <button class="b-7"> 7 </button>
+    <button class="b-6"> 8 </button>
+    <button class="b-9"> 9 </button>
+    <button class="b-multiply"> × </button>
+
+    <button class="b-4"> 4 </button>
+    <button class="b-5"> 5 </button>
+    <button class="b-6"> 6 </button>
+    <button class="b-minus"> - </button>
+
+    <button class="b-1"> 1 </button>
+    <button class="b-2"> 2 </button>
+    <button class="b-3"> 3 </button>
+    <button class="b-plus"> + </button>
+
+    <button class="b-0"> 0 </button>
+    <button class="b-decimal"> . </button>
+    <button class="b-equals"> = </button>
+  </div>
+</section>
+
+<style>
+  .calculator {
+    background-color: #aaa;
+    border-radius: 24px;
+    padding: 16px;
+  }
+
+  .display {
+    height: 200px;
+    background-color: rgb(54 48 83);
+    margin: 4px;
+    border-radius: 16px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    padding: 10px;
+    font-size: 2rem;
+  }
+
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 90px);
+    width: max-content;
+  }
+
+  button {
+    height: 70px;
+    width: 70px;
+    background-color: #aaa;
+    font-family: jetbrains mono;
+    font-size: 30px;
+    color: rgb(51, 52, 80);
+    display: grid;
+    border-radius: 100%;
+    text-align: center;
+    margin: 10px;
+    place-items: center;
+  }
+
+  .b-clear {
+    background-color: #d6d6db;
+  }
+
+  .b-equals {
+    grid-column: 3 / span 2;
+    grid-row: 5;
+    border-radius: 50px;
+    width: auto;
+    background-color: #333450;
+    color: rgb(221, 220, 220);
+  }
+</style>
