@@ -30,7 +30,7 @@
 
 <style>
   .calculator {
-    background-color: #aaa;
+    background-color: rgb(227, 227, 226);
     border-radius: 24px;
     padding: 16px;
   }
@@ -56,7 +56,7 @@
   button {
     height: 70px;
     width: 70px;
-    background-color: #aaa;
+    background-color: rgb(227, 227, 226);
     font-family: jetbrains mono;
     font-size: 30px;
     color: rgb(51, 52, 80);
@@ -65,10 +65,21 @@
     text-align: center;
     margin: 10px;
     place-items: center;
+    transition: all 200ms ease-in;
+  }
+
+  button:hover {
+    background-color: #f9f9ff;
   }
 
   .b-clear {
-    background-color: #d6d6db;
+    background-color: #f9f9ff;
+  }
+
+  .b-equals:hover {
+    background-color: rgb(54 48 83);
+    box-shadow: 0px 7px 8px -4px rgb(0 0 0 / 20%),
+      0px 12px 17px 2px rgb(0 0 0 / 14%), 0px 5px 22px 4px rgb(0 0 0 / 12%);
   }
 
   .b-equals {
@@ -76,7 +87,10 @@
     grid-row: 5;
     border-radius: 50px;
     width: auto;
-    background-color: #333450;
+    background-color: rgb(54 48 83);
     color: rgb(221, 220, 220);
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%),
+      0px 6px 10px 0px rgb(0 0 0 / 14%), 0px 1px 18px 0px rgb(0 0 0 / 12%);
+    transition: all 250ms ease-in;
   }
 </style>

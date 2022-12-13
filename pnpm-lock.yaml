@@ -1,9 +1,15 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/inter': ^4.5.14
+  '@fontsource/jetbrains-mono': ^4.5.11
   '@sveltejs/vite-plugin-svelte': ^2.0.0
   svelte: ^3.54.0
   vite: ^4.0.0
+
+dependencies:
+  '@fontsource/inter': 4.5.14
+  '@fontsource/jetbrains-mono': 4.5.11
 
 devDependencies:
   '@sveltejs/vite-plugin-svelte': 2.0.2_svelte@3.54.0+vite@4.0.0
@@ -209,6 +215,14 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@fontsource/inter/4.5.14:
+    resolution: {integrity: sha512-JDC9AocdPLuGsASkvWw9hS5gtHE7K9dOwL98XLrk5yjYqxy4uVnScG58NUvFMJDVJRl/7c8Wnap6PEs+7Zvj1Q==}
+    dev: false
+
+  /@fontsource/jetbrains-mono/4.5.11:
+    resolution: {integrity: sha512-IW1qgWGkjlN1O6Jf+6LWF9DpcdXhyQEXhTlzfVKrWHX+ProuOT5FcrEAj34AR+19CgAb9Sheda2slORnybBsdw==}
+    dev: false
 
   /@jridgewell/sourcemap-codec/1.4.14:
     resolution: {integrity: sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==}
