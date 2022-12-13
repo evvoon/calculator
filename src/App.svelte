@@ -57,7 +57,7 @@
     height: 70px;
     width: 70px;
     background-color: rgb(227, 227, 226);
-    font-family: jetbrains mono;
+    font-family: "Jetbrains Mono", monospace;
     font-size: 30px;
     color: rgb(51, 52, 80);
     display: grid;
